@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Example Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+ integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+ crossorigin=""></script>
+  <link rel="stylesheet" href="map.css">
+  </head>
+  <body>
+    <div class="left">
+      <div id="mapid"></div>
+    </div>
+    <div class="right">
+      <table>
+        <tr>
+          <th colspan="4" id="Emily">Emily</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>University</th>
+          <th>2017 GDP</th>
+          <th>Distance from Home</th>
+        </tr>
+        <tr class="marker-row min2">
+          <th>Minneapolis</th>
+          <td>University of Minnesota</td>
+          <td>260,106</td>
+          <td>821 Miles</td>
+        </tr>
+        <tr class="marker-row clb">
+          <th>Columbus</th>
+          <td>Ohio State University</td>
+          <td>136,296</td>
+          <td>54 Miles</td>
+        </tr>
+        <tr class="marker-row pit">
+          <th>Pittsburgh</th>
+          <td>University of Pittsburgh</td>
+          <td>147,367</td>
+          <td>161 Miles</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th colspan="4" id="Jason">Jason</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>Progressive Rank</th>
+          <th>School District</th>
+          <th>Outdoor Activity</th>
+        </tr>
+        <tr class="marker-row sfr">
+          <th>San Francisco</th>
+          <td>1</td>
+          <td>Unranked</td>
+          <td>1</td>
+        </tr>
+        <tr class="marker-row aus">
+          <th>Austin</th>
+          <td>14</td>
+          <td>34</td>
+          <td>Unranked</td>
+        </tr>
+        <tr class="marker-row min">
+          <th>Minneapolis</th>
+          <td>6</td>
+          <td>26</td>
+          <td>43</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <th colspan="4" id="Mary">Mary</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>Mild Weather Rating</th>
+          <th>Crime per 100K</th>
+          <th>Theatre Rank</th>
+        </tr>
+        <tr class="marker-row dal">
+          <th>Dallas</th>
+          <td>82</td>
+          <td>359.7</td>
+          <td>10</td>
+        </tr>
+        <tr class="marker-row pro">
+          <th>Provo</th>
+          <td>25</td>
+          <td>77.6</td>
+          <td>Unranked</td>
+        </tr>
+        <tr class="marker-row pas">
+          <th>Pasadena</th>
+          <td>1</td>
+          <td>Unranked</td>
+          <td>15</td>
+        </tr>
+      </table>
+    </div>
+    <script src="map.js" charset="utf-8"></script>
+  </body>
+</html>
